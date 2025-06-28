@@ -1,0 +1,13 @@
+routes:
+  /rss/:
+    content_type: text/xml
+    template: rss
+
+collections:
+  /:
+    permalink: /{slug}/
+    template: index
+
+taxonomies:
+  tag: /tag/{slug}/
+  author: /author/{slug}/
